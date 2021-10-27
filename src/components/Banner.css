@@ -1,0 +1,38 @@
+.banner {
+  height: 448px;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner__contents {
+  color: #fff;
+  padding-top: 140px;
+  margin-left: 30px;
+}
+.banner__buttons {
+  display: flex;
+}
+.banner__button {
+  cursor: pointer;
+  padding: 0.5em 2em;
+  margin-right: 1em;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #000;
+  border-radius: 4px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.banner__button:hover {
+  color: #000;
+  background: #fff;
+  transition: all 0.3s;
+}
+.description {
+  width: 480px;
+  height: 80px;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
