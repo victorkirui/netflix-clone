@@ -40,6 +40,8 @@ function Banner() {
                 </div>
                 <p className="description">{truncate(movie?.overview, 150)}</p>
             </div>
+
+            <div className="banner--bottom"></div>
         </header>
     )
 }

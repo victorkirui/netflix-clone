@@ -20,7 +20,7 @@
   outline: none;
   border: none;
   color: #fff;
-  background: #000;
+  background: rgba(51, 51, 51, 0.5);
   border-radius: 4px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -35,4 +35,13 @@
   height: 80px;
   font-size: 0.8rem;
   line-height: 1.3rem;
+}
+.banner--bottom {
+  height: 7rem;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(17, 17, 17, 0.7) 50%,
+    #111
+  );
 }
